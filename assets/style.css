@@ -1,38 +1,43 @@
 body {
-    background-color: rgba(77, 59, 56, 0.752);
+    background-color: rgb(197, 187, 177);
     font-family: 'Times New Roman', Times, serif;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: rgb(177, 161, 144);
-    color: whitesmoke;
-    border: 10px solid whitesmoke;
+    background-color: rgb(197, 187, 177);
+    color: rgb(177, 161, 144);
+    border: 10px solid rgb(177, 161, 144);
 }
 
 h1 {
     font-size: 400%;
+    text-align: center;
+    letter-spacing: .4rem;
 }
 
 h4 {
-    font-size: 125%;
+    font-size: 75%;
+    text-align: center;
+    letter-spacing: .9rem;
 }
 
 nav ul {
     font-size: 125%;
+    text-align: center;
 }
 
 button {
-    background-color: green;
+    background-color: rgb(177, 161, 144);
     border: 1px solid whitesmoke;
     color: whitesmoke;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    align-content: flex-start;
 }
 
 h2 {
@@ -47,7 +52,6 @@ img {
 }
 
 #aboutme-jpg {
-    position: relative;
-
+    width: 400px;
 
 }
