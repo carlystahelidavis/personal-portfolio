@@ -7,3 +7,8 @@ h1 {}
 h2 {}
 
 nav ul {}
+
+article img {
+    height: 200px;
+    width: 200px;
+}
