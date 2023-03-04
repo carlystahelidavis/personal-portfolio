@@ -1,14 +1,53 @@
-body {}
+body {
+    background-color: rgba(77, 59, 56, 0.752);
+    font-family: 'Times New Roman', Times, serif;
+}
 
-header {}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(177, 161, 144);
+    color: whitesmoke;
+    border: 10px solid whitesmoke;
+}
 
-h1 {}
+h1 {
+    font-size: 400%;
+}
 
-h2 {}
+h4 {
+    font-size: 125%;
+}
 
-nav ul {}
+nav ul {
+    font-size: 125%;
+}
 
-article img {
-    height: 200px;
+button {
+    background-color: green;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 400%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
     width: 200px;
+}
+
+#aboutme-jpg {
+    position: relative;
+
+
 }
