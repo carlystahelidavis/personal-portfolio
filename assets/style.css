@@ -48,7 +48,8 @@ button:hover {
 }
 
 h2 {
-    font-size: 400%;
+    font-size: 250%;
+    color: rgb(177, 161, 144)
 }
 
 img {
@@ -67,6 +68,20 @@ img {
     display: flex;
 }
 
+#P {
+    background-image: url(./Projects.jpg);
+    height: 400px;
+    background-position: center;
+    display: flex;
+}
+
+#CM {
+    background-image: url(./Contact\ Me.jpg);
+    height: 400px;
+    background-position: center;
+    display: flex;
+}
+
 .container {
     position: relative;
     text-align: center;
@@ -77,19 +92,7 @@ img {
 .centered {
     position: relative;
     top: 50%;
-    left: 375%;
+    left: 360%;
     transform: translate(-50%, -50%);
     letter-spacing: .9rem;
-}
-
-#P {
-    background-image: url(./Projects.jpg);
-    height: 400px;
-    background-position: center;
-}
-
-#CM {
-    background-image: url(./Contact\ Me.jpg);
-    height: 400px;
-    background-position: center;
 }
