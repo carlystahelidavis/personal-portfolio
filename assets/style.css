@@ -3,6 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 header {
     display: flex;
     align-items: center;
@@ -70,17 +71,18 @@ button:hover {
 h2 {
     font-size: 250%;
     color: rgb(177, 161, 144);
-    position: absolute;
-    top: 850px;
+    margin-top: 150px;
+    /* position: absolute; */
+    /* top: 850px; */
 }
 
 img {
     border: 10px solid rgb(177, 161, 144);
     padding: 5px;
     width: 325px;
-    position: relative;
+    position: absolute;
     left: 55px;
-    bottom: 255px;
+    bottom: 20px;
 }
 
 #AM {
@@ -90,6 +92,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin: auto;
 }
 
 #P {
@@ -111,7 +114,7 @@ img {
 }
 
 .container {
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     color: rgb(197, 187, 177);
     font-size: 55px;
@@ -121,7 +124,7 @@ img {
     /*position: relative;
     top: 50%;
     left: 360%;*/
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     letter-spacing: .9rem;
 }
 
@@ -190,4 +193,14 @@ footer {
     color: rgb(197, 187, 177);
     font-size: 80px;
     letter-spacing: .4rem;
+}
+
+@media screen and (max-width: 930px) {
+    img {
+        position: inherit;
+    }
+
+    h2 {
+        margin: auto;
+    }
 }
