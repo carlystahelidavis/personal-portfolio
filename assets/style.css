@@ -32,7 +32,7 @@ nav ul {
 button {
     background-color: rgb(197, 187, 177);
     border: 10px solid rgb(177, 161, 144);
-    color: whitesmoke;
+    color: rgb(177, 161, 144);
     padding: 14px 40px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -70,39 +70,22 @@ img {
 .container {
     position: relative;
     text-align: center;
-    color: whitesmoke;
-    font-size: 30px;
+    color: rgb(197, 187, 177);
+    font-size: 55px;
 }
 
 .centered {
     position: relative;
     top: 50%;
-    left: 150%;
+    left: 375%;
     transform: translate(-50%, -50%);
-}
-
-article p {
-    top: 40%;
+    letter-spacing: .9rem;
 }
 
 #P {
     background-image: url(./Projects.jpg);
     height: 400px;
     background-position: center;
-}
-
-.flex-container {
-    display: flex;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-}
-
-.project-1 {
-    display: block;
-    height: 200px;
-    background-color: blue;
 }
 
 #CM {
