@@ -40,6 +40,11 @@ button {
     font-size: 16px;
     justify-content: space-between;
     width: 20%;
+    letter-spacing: .9rem;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2 {
@@ -55,34 +60,49 @@ img {
     bottom: 255px;
 }
 
-#aboutme-jpg {
-    width: 400px;
-    display: flex;
-}
-
 #AM {
     background-image: url(./About\ Me.jpg);
     height: 400px;
     background-position: center;
+    display: flex;
 }
 
 .container {
     position: relative;
     text-align: center;
     color: whitesmoke;
+    font-size: 30px;
 }
 
 .centered {
-    position: absolute;
-    top: -50%;
-    left: 50%;
+    position: relative;
+    top: 50%;
+    left: 150%;
     transform: translate(-50%, -50%);
+}
+
+article p {
+    top: 40%;
 }
 
 #P {
     background-image: url(./Projects.jpg);
     height: 400px;
     background-position: center;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.project-1 {
+    display: block;
+    height: 200px;
+    background-color: blue;
 }
 
 #CM {
