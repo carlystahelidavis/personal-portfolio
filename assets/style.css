@@ -98,3 +98,36 @@ img {
     transform: translate(-50%, -50%);
     letter-spacing: .9rem;
 }
+
+article ul {
+    margin: 2% 0;
+    font-size: 110%;
+
+}
+
+#pro-1 {
+    padding: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 10px solid rgb(177, 161, 144);
+}
+
+#pro-2 {
+    padding: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 10px solid rgb(177, 161, 144);
+}
+
+#pro-3 {
+    padding: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 10px solid rgb(177, 161, 144);
+}
