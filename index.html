@@ -10,16 +10,16 @@
 
 <body>
     <header>
-        <h1>Carly Staheli</h1>
+        <h1 id="home">Carly Staheli</h1>
         <h4>Personal Portfolio</h4>
     </header>
 
     <nav>
         <ul>
-            <button>Home</a></button>
-            <button>About Me</a></button>
-            <button>Projects</a></button>
-            <button>Contact Me</a></button>
+            <button onclick="location.href='#home'">Home</button>
+            <button onclick="location.href='#AM'">About Me</button>
+            <button onclick="location.href='#P'">Projects</button>
+            <button onclick="location.href='#CM'">Contact Me</button>
         </ul>
     </nav>
 
@@ -41,9 +41,15 @@
             </div>
         </section>
         <section class="project-container">
-            <div id="pro-1" class="project-item">Project One</div>
-            <div id="pro-2" class="project-item">Project Two</div>
-            <div id="pro-3" class="project-item">Project Three</div>
+            <div id="pro-1" class="project-item" onclick="window.open('https://carlystahelidavis.github.io/hw1/')">
+                <h3>Project One</h3>
+            </div>
+            <div id="pro-2" class="project-item">
+                <h3>Project Two</h3>
+            </div>
+            <div id="pro-3" class="project-item">
+                <h3>Project Three</h3>
+            </div>
         </section>
         <section id="CM">
             <div class="container">
