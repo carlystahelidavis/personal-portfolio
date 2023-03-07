@@ -3,7 +3,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 header {
     display: flex;
     align-items: center;
@@ -72,8 +71,6 @@ h2 {
     font-size: 250%;
     color: rgb(177, 161, 144);
     margin-top: 150px;
-    /* position: absolute; */
-    /* top: 850px; */
 }
 
 img {
@@ -114,24 +111,18 @@ img {
 }
 
 .container {
-    /*position: relative;*/
     text-align: center;
     color: rgb(197, 187, 177);
     font-size: 55px;
 }
 
 .centered {
-    /*position: relative;
-    top: 50%;
-    left: 360%;*/
-    /* transform: translate(-50%, -50%); */
     letter-spacing: .9rem;
 }
 
 article ul {
     margin: 2% 0;
     font-size: 110%;
-
 }
 
 .project-container {
@@ -157,8 +148,6 @@ article ul {
     font-size: 35px;
     color: rgb(177, 161, 144);
     background-color: rgb(121, 112, 101);
-
-
 }
 
 #pro-1 {
